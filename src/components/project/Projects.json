@@ -10,6 +10,6 @@
         "id": 1,
         "images": "./images/realEstateProject.png",
         "title": " Metron real Estate",
-        "description": "My roll was to build user interface with reactjs and tailwindcss."
+        "description": "This is simple website that show Metron projects and tesminonial, My roll was to build user interface with reactjs and tailwindcss."
     }
 ]

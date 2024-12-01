@@ -25,7 +25,7 @@ function Project(){
                         projects && projects.length ? 
                         projects.map((projectItem) => (
                    <div className="flex items-start justify-around w-full p-8 mt-6 flex-wrap">
-                      <div className="w-96 h-48 relative bg-black">
+                      <div className="w-[410px] h-[230px] relative bg-black">
                         <img src={projectItem.images} alt="Metron" className="object-cover w-full h-full"/>
                      </div>
                      <div className="flex flex-col items-center lg:items-start justify-center gap-5 mt-4 lg:mt-0">
