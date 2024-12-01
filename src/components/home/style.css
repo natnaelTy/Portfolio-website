@@ -1,0 +1,30 @@
+.mouse{
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+    font-size: 35px;
+}
+.image{
+    width: 280px;
+    height: 280px;
+    border: 3px solid black;
+    border-radius: 35% 60% 35% 45% ;
+    object-fit: cover;
+    animation: wave;
+    animation-duration: 0.7s;
+    animation-name: wave;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wave {
+    0%{
+        transform: rotate(50%);
+    }
+    50%{
+        transform: rotate(70%);
+    }
+    100%{
+        transform: rotate(90%);
+    }
+}

@@ -1,0 +1,15 @@
+[
+
+    {
+        "id": 0,
+        "images": "./images/coffeefarm.png",
+        "title": "Tade coffee export",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem vero nemo, deserunt magni adipisci aperiam ex exercitationem soluta placeat atque, nesciunt cum eligendi mollitia commodi est iure, sapiente eum perspiciatis."
+    },
+    {
+        "id": 1,
+        "images": "./images/realEstateProject.png",
+        "title": " Metron real Estate",
+        "description": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem vero nemo, deserunt magni adipisci aperiam ex exercitationem soluta placeat atque, nesciunt cum eligendi mollitia commodi est iure, sapiente eum perspiciatis."
+    }
+]

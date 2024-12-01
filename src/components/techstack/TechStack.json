@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "logos": "./images/html.png"
+    },
+    {
+        "id": 1,
+        "logos": "./images/css.png"
+    },
+    {
+        "id": 2,
+        "logos": "./images/js.png"
+    },
+    {
+        "id": 3,
+        "logos": "./images/react.png"
+    },
+    {
+        "id": 4,
+        "logos": "./images/Tailwindcss.png"
+    },
+    {
+        "id": 5,
+        "logos": "./images/sass.png"
+    },
+    {
+        "id": 6,
+        "logos": "./images/git.png"
+    }
+]
