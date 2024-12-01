@@ -21,7 +21,7 @@ function AboutMe(){
                         viewport={{once: true}} 
                         className="flex items-start justify-around mt-10 p-6 flex-wrap w-full">
                 <div className="w-64 ">
-                    <img src="./images/pic3.jpg" alt="me" className="w-full h-full"/>
+                    <img src="./images/pic2.jpg" alt="me" className="w-full h-full"/>
                 </div>
                 <div className="flex items-center md:items-start justify-center flex-col mt-8 lg:mt-0">
                     <p className="text-center md:text-left text-gray-700 max-w-lg">I am a passionate ReactJS developer with a strong foundation in building dynamic and responsive web applications. I specialize in creating user-friendly interfaces that are both visually appealing and highly functional. My expertise includes working with modern JavaScript library like React, along with tools such as Redux, Tailwind CSS, and React Router to deliver seamless user experiences, Beyond coding, I enjoy collaborating with teams to transform ideas into reality and continuously learning new technologies to stay at the forefront of web development. Whether working on a startup or a large-scale project, I bring creativity, attention to detail, and i'm also a second year computer science student in Infolink universty hawassa</p>
