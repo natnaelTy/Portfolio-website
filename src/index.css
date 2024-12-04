@@ -7,4 +7,5 @@
 *{
     scroll-behavior: smooth;
     font-family: 'Nunito', sans-serif;
+    overscroll-behavior: none;
 }

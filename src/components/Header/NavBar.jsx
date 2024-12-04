@@ -61,7 +61,7 @@ function NavBar(){
                     showMenu ? 
                     <motion.div initial={{x: 150}} 
                                 whileInView={{x: 0}}
-                                exit={{x: 0}}
+                                exit={'exit'}
                                 transition={{duration: 0.5}}
                                 viewport={{once: true}} 
                                 className="lg:hidden flex flex-col items-center justify-center shadow-lg w-3/4 h-screen absolute top-0 z-10 right-0 bg-white">

@@ -23,9 +23,9 @@ function Project(){
                          className="flex items-center justify-around flex-wrap ">
                     {
                         projects && projects.length ? 
-                        projects.map((projectItem) => (
+                        projects.map((projectItem, index) => (
                    <div className="flex items-start justify-around w-full p-8 mt-6 flex-wrap">
-                      <div className="w-[410px] h-[230px] relative bg-black">
+                      <div key={index} className="w-[410px] h-[230px] relative bg-black">
                         <img src={projectItem.images} alt="Metron" className="object-cover w-full h-full"/>
                      </div>
                      <div className="flex flex-col items-center lg:items-start justify-center gap-5 mt-4 lg:mt-0">
@@ -33,7 +33,7 @@ function Project(){
                          <a href="https://github.com/natnaelTy"><FaGithub className="text-2xl cursor-pointer hover:text-black text-gray-900"/></a>
                          </h1>
                          <p className="max-w-lg text-center lg:text-left text-gray-700">{projectItem.description}</p>
-                         <button className="bg-gray-900 text-white flex items-center gap-2 hover:bg-black justif-end rounded-md py-2 px-4">Preview <BsBoxArrowUpRight/></button>
+                         <button className="bg-gray-900 text-white flex items-center gap-2 hover:bg-black justif-end rounded-md py-2 px-4"><a href={projectItem.button}>Preview </a><BsBoxArrowUpRight/></button>
                      </div>
                      </div>
                         ))
