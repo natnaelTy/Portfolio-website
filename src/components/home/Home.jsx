@@ -19,7 +19,7 @@ function Home(){
                     <a href="#contact"><button className="font-semibold flex items-center justify-end gap-2 text-white bg-blue-600 hover:bg-blue-500 rounded-lg px-4 py-3 mt-6">Say Hello <GrSend style={{fontSize: '19px'}}/></button></a>
                 </div>
                 <div className="relative image-container">
-                    <img src="./images/js.png" alt="natnael" className="object-cover w-full h-full image"/>
+                    <img src="./images/me.jpg" alt="natnael" className="object-cover w-full h-full image"/>
                 </div>
             </div>
             {/* Scroll Mouse */}
