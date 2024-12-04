@@ -18,7 +18,7 @@ function Home(){
                     <p className="text-gray-700 md:text-left max-w-lg text-center font-medium">I'm creative Reactjs developer based in Ethiopia, and i'm very passionate and dedicated to my work.</p>
                     <a href="#contact"><button className="font-semibold flex items-center justify-end gap-2 text-white bg-blue-600 hover:bg-blue-500 rounded-lg px-4 py-3 mt-6">Say Hello <GrSend style={{fontSize: '19px'}}/></button></a>
                 </div>
-                <div className="w-64 relative h-64 image-container">
+                <div className="w-64 relative h-64">
                     <img src="./images/me.jpg" alt="natnael" className="image"/>
                 </div>
             </div>
