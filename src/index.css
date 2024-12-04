@@ -7,11 +7,13 @@
 *{
     scroll-behavior: smooth;
     font-family: 'Nunito', sans-serif;
-    overscroll-behavior: none;
+    overscroll-behavior-y: none;
 }
 body{
     overscroll-behavior: none; 
+    overscroll-behavior-y: none;
 }
 html{
     overscroll-behavior: none; 
+    overscroll-behavior-y: none;
 }
