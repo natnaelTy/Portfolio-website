@@ -11,7 +11,7 @@ function Home(){
                      transition={{duration: 1.5}}
                      viewport={{once: true}} 
                      id="home">
-            <div className="flex items-center justify-evenly gap-4 h-screen flex-wrap-reverse p-6">
+            <div className="flex items-center justify-evenly gap-4 h-screen mt-20 flex-wrap-reverse p-6">
                 <div className="flex items-center md:items-start flex-col gap-2 relative">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold">Natnael Taye 👋🏾</h1>
                     <p className="text-lg text-gray-900 md:text-2xl font-medium">Front-End Reactjs Developer</p>
