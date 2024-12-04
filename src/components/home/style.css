@@ -4,13 +4,12 @@
     left: 13%;
     font-size: 35px;
 }
-.image{
+.image-container{
     width: 280px;
     height: 280px; 
     animation: wave 8s ease-in-out infinite;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     border: 3px solid black;
-    object-fit: cover;
 }
 
 @keyframes wave {
