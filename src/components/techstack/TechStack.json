@@ -17,14 +17,18 @@
     },
     {
         "id": 4,
-        "logos": "./images/Tailwindcss.png"
+        "logos": "./images/nextjs.png"
     },
     {
         "id": 5,
-        "logos": "./images/sass.png"
+        "logos": "./images/Typescript.png"
     },
     {
         "id": 6,
+        "logos": "./images/Tailwindcss.png"
+    },
+    {
+        "id": 7,
         "logos": "./images/git.png"
     }
 ]

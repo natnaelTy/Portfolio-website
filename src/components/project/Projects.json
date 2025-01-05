@@ -9,6 +9,14 @@
     },
     {
         "id": 1,
+        "images": "./images/Golden-car-rental.png",
+        "title": " Golden car rental",
+        "description": "This website is a direct reflection of my commitment to providing a modern, accessible, and reliable car rental service. The platform simplifies the booking process, making it easier for customers to choose the perfect vehicle for their journey. Tech stack used: React, Typescript and Tailwindcss",
+        "button": "https://car-rental-wine-seven.vercel.app/"
+
+    },
+    {
+        "id": 1,
         "images": "./images/realEstateProject.png",
         "title": " Metron real Estate",
         "description": "This is simple website that show Metron projects and tesminonial, My roll was to build user interface with reactjs and tailwindcss.",
