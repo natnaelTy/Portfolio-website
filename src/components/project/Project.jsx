@@ -20,12 +20,12 @@ function Project(){
                          whileInView={{opacity: 1, y: 0}}
                          transition={{duration: 1.6}}
                          viewport={{once: true}} 
-                         className="flex items-center justify-around flex-wrap ">
+                         className="flex items-center justify-around flex-wrap w-full">
                     {
                         projects && projects.length ? 
                         projects.map((projectItem, index) => (
                    <div className="flex items-start justify-around w-full p-8 mt-6 flex-wrap">
-                      <div key={index} className="w-[410px] h-[230px] relative bg-black">
+                      <div key={index} className="max-w-md relative">
                         <img src={projectItem.images} alt="Metron" className="object-cover w-full h-full"/>
                      </div>
                      <div className="flex flex-col items-center lg:items-start justify-center gap-5 mt-4 lg:mt-0">
