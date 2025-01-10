@@ -1,23 +1,23 @@
 .underlinebg::before{
     position: absolute;
     content: '';
-    width: 80px;
+    width: 50px;
     height: 2px;
     background-color: #1297fde2;
     border-radius: 10%;
-    bottom: 6%;
-    left: 25%;
+    bottom: 0%;
+    left: 30%;
     border-radius: 20px;
 }
 .logo{
-    border: 2px solid #93c4ff;
+    border: 1.5px solid #93c4ff;
     width: 80px;
     height: 80px;
     padding: 15px;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 .logo:hover{
-    border: 2px solid #00bbff;
+    border: 1.5px solid #00bbff;
     transform: translate(0, -20%);
     transition: all 0.3s ease-in-out;
 }

@@ -19,7 +19,7 @@ function AboutMe(){
                         whileInView={{opacity: 1, y: 0}}
                         transition={{duration: 1.5}}
                         viewport={{once: true}} 
-                        className="flex items-start justify-around mt-10 p-6 flex-wrap w-full">
+                        className="flex items-start justify-around mt-10 p-4 flex-wrap w-full">
                 <div className="w-64 ">
                     <img src="./images/pic2.jpg" alt="me" className="w-full h-full"/>
                 </div>
