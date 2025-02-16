@@ -1,9 +1,9 @@
-import { RiMenu5Fill } from "react-icons/ri";
+import { CiMenuBurger } from "react-icons/ci";
 import { LiaTimesSolid } from "react-icons/lia";
 import { useEffect, useState } from "react";
 import './style.css';
 import {motion} from "motion/react";
-
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
 
 function NavBar(){
 
@@ -45,16 +45,24 @@ function NavBar(){
         )
     }
  
+
     return(
         <div>
-               <nav className={showNav ? 'navbar active' : "navbar"}>
-                   <h1 className="text-2xl">Nt</h1>
-                     <ul className="gap-6 hidden md:flex">
+               <nav className={showNav ? 'navbar active bg-white dark:bg-gray-950' : "navbar bg-white dark:bg-gray-950"}>
+                   <h1 className="text-2xl dark:text-gray-100">Nt</h1>
+                     <ul className="gap-6 hidden md:flex dark:text-gray-100">
                        <Links />
                     </ul>
-                       <button onClick={handleToggleMenu} className="flex md:hidden text-3xl absolute top-0 p-4 right-0 z-40">
-                         {showMenu ?  <LiaTimesSolid/> : <RiMenu5Fill/> }
-                   </button>
+
+                       <button onClick={handleToggleMenu} className="flex md:hidden text-3xl absolute top-0 p-4 right-0 z-40 dark:text-white">
+                         {showMenu ?  <LiaTimesSolid/> : <CiMenuBurger/> }
+                       </button>
+
+                       {/* light and dark mode component */}
+                       <div className="pr-10 pt-2">
+                          <ThemeToggle/>
+                       </div>
+                      
 
                    {/* side nav menu */}
                    {
@@ -64,8 +72,8 @@ function NavBar(){
                                 exit={'exit'}
                                 transition={{duration: 0.5}}
                                 viewport={{once: true}} 
-                                className="lg:hidden flex flex-col items-center justify-center shadow-lg w-3/4 h-screen absolute top-0 z-10 right-0 bg-white">
-                        <ul onClick={handleToggleMenu} className="flex flex-col gap-8 text-center">
+                                className="lg:hidden flex flex-col items-center justify-center shadow-lg w-3/4 h-screen absolute top-0 z-10 right-0 bg-white dark:bg-gray-900 shadow-xl">
+                        <ul onClick={handleToggleMenu} className="flex flex-col gap-8 text-center dark:text-white">
                            <Links />
                         </ul>
                     </motion.div>

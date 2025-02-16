@@ -7,7 +7,7 @@ function TechStack(){
     <div className="text-center flex items-center justify-center flex-col">
       {/* Tech stack */}
        <div className="relative p-1 mb-10 mt-20">
-          <h1 className="text-2xl text-gray-900 lg:text-3xl font-medium">Tech Stack</h1>
+          <h1 className="text-2xl text-gray-900 lg:text-3xl font-medium dark:text-gray-100">Tech Stack</h1>
          <div className="underlinebg">
              {/* before psudeo class */}
          </div>
