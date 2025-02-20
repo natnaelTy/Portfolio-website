@@ -30,7 +30,7 @@ function Project(){
                      </div>
                      <div className="flex flex-col items-center lg:items-start justify-center gap-5 mt-4 lg:mt-0">
                          <h1 className="text-gray-900 text-xl font-medium flex items-center gap-3 dark:text-gray-100">{projectItem.title}
-                         <a href="https://github.com/natnaelTy"><FaGithub className="text-2xl cursor-pointer hover:text-black text-gray-900 dark:text-gray-400"/></a>
+                         <a href="https://github.com/natnaelTy"><FaGithub className="text-2xl cursor-pointer hover:text-black text-gray-900 dark:text-gray-500 dark:hover:text-gray-600"/></a>
                          </h1>
                          <p className="max-w-lg text-center lg:text-left text-gray-700 dark:text-gray-400">{projectItem.description}</p>
                          <button className="bg-gray-900 text-white flex items-center gap-2 hover:bg-black justif-end rounded-md py-2 px-4 dark:hover:bg-gray-800"><a href={projectItem.button}>Preview </a><BsBoxArrowUpRight/></button>

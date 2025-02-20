@@ -15,7 +15,7 @@ function TechStack(){
             <div className="flex gap-10 mb-20 flex-wrap p-4 items-center justify-center">
                 {icons && icons.length ?
                  icons.map(iconList => (
-                    <div key={iconList.id} className="w-12 h-12 logo">
+                    <div key={iconList.id} className="w-12 h-12 logo dark:bg-gray-900">
                         <img src={iconList.logos} alt="" className="w-full h-full obeject-cover"/>
                     </div>
                  ))
