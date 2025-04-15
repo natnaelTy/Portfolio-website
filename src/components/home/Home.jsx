@@ -13,10 +13,10 @@ function Home(){
                      viewport={{once: true}} 
                      id="home">
             <div className="flex items-center justify-evenly min-h-screen pt-20 md:pt-0 gap-4 flex-wrap-reverse p-4 ">
-                <div className="flex items-center md:items-start flex-col gap-2 relative">
+                <div className="flex items-center md:items-start flex-col gap-2 relative"> 
                     <h1 className="text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold dark:text-gray-100">Natnael Taye 👋🏾</h1>
-                    <p className="text-lg text-gray-900 md:text-2xl font-medium dark:text-gray-200">Front-End Reactjs Developer</p>
-                    <p className="text-gray-700 md:text-left max-w-lg text-center font-medium dark:text-gray-400">I'm creative Reactjs developer based in Ethiopia, and i'm very passionate and dedicated to my work.</p>
+                    <p className="text-lg text-gray-900 md:text-2xl font-medium dark:text-gray-200">Full stack Developer</p>
+                    <p className="text-gray-700 md:text-left max-w-lg text-center font-medium dark:text-gray-400">I'm creative Full stack developer based in Ethiopia, and i'm very passionate and dedicated to my work.</p>
                     <a href="#contact"><button className="font-semibold flex items-center justify-end gap-2 text-white bg-blue-600 hover:bg-blue-700 rounded-md px-4 py-3 mt-6">Say Hello <GrSend style={{fontSize: '19px'}}/></button></a>
                 </div>
                 <div className="relative image-container">

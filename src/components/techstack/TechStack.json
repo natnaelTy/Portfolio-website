@@ -29,6 +29,26 @@
     },
     {
         "id": 7,
+        "logos": "./images/nodejs.png"
+    },
+    {
+        "id": 8,
+        "logos": "./images/expressjs.png"
+    },
+    {
+        "id": 9,
+        "logos": "./images/mongodbb.png"
+    },
+    {
+        "id": 10,
+        "logos": "./images/mysqldb.png"
+    },
+    {
+        "id": 11,
+        "logos": "./images/reduxtoolkit.png"
+    },
+    {
+        "id": 12,
         "logos": "./images/git.png"
     }
 ]

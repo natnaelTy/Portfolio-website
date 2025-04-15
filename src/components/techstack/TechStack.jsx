@@ -12,11 +12,11 @@ function TechStack(){
              {/* before psudeo class */}
          </div>
        </div>
-            <div className="flex gap-10 mb-20 flex-wrap p-4 items-center justify-center">
+            <div className="flex gap-10 mb-20 flex-wrap p-4 max-w-[600px] w-full items-center justify-center">
                 {icons && icons.length ?
                  icons.map(iconList => (
                     <div key={iconList.id} className="w-12 h-12 logo dark:bg-gray-900">
-                        <img src={iconList.logos} alt="" className="w-full h-full obeject-cover"/>
+                        <img src={iconList.logos} alt="images" className="w-full h-full obeject-cover"/>
                     </div>
                  ))
                  : null}

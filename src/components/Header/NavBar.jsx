@@ -1,4 +1,4 @@
-import { CiMenuBurger } from "react-icons/ci";
+import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { LiaTimesSolid } from "react-icons/lia";
 import { useEffect, useState } from "react";
 import './style.css';
@@ -55,7 +55,7 @@ function NavBar(){
                     </ul>
 
                        <button onClick={handleToggleMenu} className="flex md:hidden text-3xl absolute top-0 p-4 right-0 z-40 dark:text-white">
-                         {showMenu ?  <LiaTimesSolid/> : <CiMenuBurger/> }
+                         {showMenu ?  <LiaTimesSolid/> : <HiOutlineMenuAlt4/> }
                        </button>
 
                        {/* light and dark mode component */}
