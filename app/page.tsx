@@ -108,7 +108,6 @@ export default function Home() {
           </div>
         </header>
 
-        
         <section
           id="techstack"
           ref={(el) => {
