@@ -17,12 +17,22 @@ export default function Home() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
+            // debug: log which section intersected
+            // eslint-disable-next-line no-console
+            console.debug("section intersecting:", entry.target.id);
             entry.target.classList.add("animate-fade-in-up");
             setActiveSection(entry.target.id);
           }
         });
       },
       { threshold: 0.3, rootMargin: "0px 0px -20% 0px" }
+    );
+
+    // debug: show refs before observing
+    // eslint-disable-next-line no-console
+    console.debug(
+      "observing sections:",
+      sectionsRef.current.map((s) => (s ? s.id : null))
     );
 
     sectionsRef.current.forEach((section) => {
@@ -40,7 +50,7 @@ export default function Home() {
     <div className="min-h-screen bg-background text-foreground relative">
       <nav className="fixed left-8 top-1/2 -translate-y-1/2 z-10 hidden lg:block">
         <div className="flex flex-col gap-4">
-          {["intro", "work", "techstack", "connect"].map((section) => (
+          {["intro", "techstack", "projects", "connect"].map((section) => (
             <button
               key={section}
               onClick={() =>
@@ -201,7 +211,7 @@ export default function Home() {
         </section>
 
         <section
-          id="work"
+          id="projects"
           ref={(el) => {
             sectionsRef.current[2] = el;
           }}
@@ -218,6 +228,41 @@ export default function Home() {
             <div className="space-y-8 sm:space-y-12">
               {[
                 {
+                  image: "./images/negarit.png",
+                  title: "Negarit Event",
+                  description:
+                    "A platform for discovering and organizing local events in Ethiopia.",
+                  tech: [
+                    "React",
+                    "TypeScript",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "Shadcn UI",
+                    "Prisma ORM",
+                    "PostgreSQL",
+                    "Supabase"
+                  ],
+                  status: "",
+                  preview: "https://www.negaritevents.com/",
+                },
+                {
+                  image: "./images/zakbis.png",
+                  title: "Zakbis",
+                  description:
+                    "Connects travelers flying to Ethiopia with people who need items carried or bought.",
+                  tech: [
+                    "React",
+                    "TypeScript",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "Shadcn UI",
+                    "Prisma ORM",
+                    "Supabase"
+                  ],
+                  status: "In progress",
+                  preview: "https://www.zakbis.com/",
+                },
+                {
                   image: "./images/bekur.png",
                   title: "Bekur",
                   description:
@@ -233,7 +278,7 @@ export default function Home() {
                     "Ollama",
                     "Langflow",
                   ],
-                  status: "In progress",
+                  status: "Paused",
                   preview: "https://example.com/bekur",
                 },
                 {
@@ -334,7 +379,7 @@ export default function Home() {
                         target="_blank"
                         rel="noreferrer"
                         className={` ${
-                          project.status === "In progress"
+                          project.status === "Paused"
                             ? "hidden"
                             : "inline-flex"
                         } items-center gap-2 w-fit px-4 py-2 text-sm border border-border rounded-md hover:border-muted-foreground/50 hover:bg-muted/50 transition-colors duration-300 mt-3 `}
@@ -381,7 +426,7 @@ export default function Home() {
 
                 <div className="space-y-4">
                   <Link
-                    href="mailto:test@example.com"
+                    href="mailto:natitaye316@gmail.com"
                     className="group flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
                   >
                     <span className="text-base sm:text-lg">
